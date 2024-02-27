@@ -51,6 +51,8 @@ replace (
 	sigs.k8s.io/kustomize/kyaml => sigs.k8s.io/kustomize/kyaml v0.16.0
 )
 
+replace github.com/fluxcd/cli-utils => github.com/isugimpy/cli-utils v0.36.0-flux.3.0.20240227174829-0a3f97a6c519
+
 // Fix CVE-2022-28948
 replace gopkg.in/yaml.v3 => gopkg.in/yaml.v3 v3.0.1
 
